@@ -1,0 +1,275 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 2230275
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Apr 04 16:16:10 CEST 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 5.4.0-104-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: 51.0
+Screen size: 1280x649
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/nas/ei/share/tools/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/nas/ei/share/tools/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ge75caz
+User home directory: /nas/ei/home/ge75caz
+User working directory: /data/scratch/ge75caz/PULP/pulp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nas/ei/share/tools/xilinx/Vivado
+HDI_APPROOT: /nfs/tools/xilinx/Vivado/2021.2
+RDI_DATADIR: /nas/ei/share/tools/xilinx/Vivado/2021.2/data
+RDI_BINDIR: /nas/ei/share/tools/xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: /home/ge75caz/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/ge75caz/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /nas/ei/home/ge75caz/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/nas/ei/share/tools/xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/data/scratch/ge75caz/PULP/pulp/vivado.log
+Vivado journal file: 	/data/scratch/ge75caz/PULP/pulp/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2230275-prakt11
+
+Xilinx Environment Variables
+----------------------------
+GAP_SDK_HOME: /data/scratch/ge75caz/PULP/pulp-sdk
+PULP_SDK_HOME: /data/scratch/ge75caz/PULP/pulp/pulp-runtime
+PULP_SDK_INSTALL: /data/scratch/ge75caz/PULP/pulp-sdk/install/workstation
+XILINX: /nfs/tools/xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: /nfs/tools/xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_EDK: /nfs/tools/xilinx/ise/14.7/ISE_DS/EDK
+XILINX_HLS: /nfs/tools/xilinx/Vitis_HLS/2021.2
+XILINX_ISE: /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE
+XILINX_PLANAHEAD: /nfs/tools/xilinx/Vivado/2021.2
+XILINX_VITIS: 
+XILINX_VIVADO: /nfs/tools/xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /nfs/tools/xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,836 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1128 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,841 MB. GUI used memory: 53 MB. Current time: 4/4/22, 4:16:11 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,850 MB. GUI used memory: 56 MB. Current time: 4/4/22, 4:22:56 PM CEST
+// [GUI Memory]: 65 MB (+65351kb) [00:28:21]
+// [Engine Memory]: 1,850 MB (+1788590kb) [00:28:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,850 MB. GUI used memory: 56 MB. Current time: 4/4/22, 4:52:56 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,850 MB. GUI used memory: 49 MB. Current time: 4/4/22, 5:22:57 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,850 MB. GUI used memory: 48 MB. Current time: 4/4/22, 5:52:57 PM CEST
+// [GUI Memory]: 94 MB (+27370kb) [01:51:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,850 MB. GUI used memory: 48 MB. Current time: 4/4/22, 6:22:57 PM CEST
+// Elapsed time: 8141 seconds
+dismissFileChooser();
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // al
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // y
+// WARNING: HEventQueue.dispatchEvent() is taking  1210 ms.
+selectButton("NEXT", "Next >"); // JButton
+dismissDialog("Getting Example Templates"); // bA
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[XhubDesigns, Xilinx, BFT]", 2, false); // a
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[XhubDesigns, Xilinx, CIPS DDR PL Debug]", 3, false); // a
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[XhubDesigns, Xilinx, CPU (HDL)]", 4, false); // a
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[XhubDesigns, Xilinx, CPU (Synthesized)]", 5, false); // a
+selectButton("BACK", "< Back"); // JButton
+selectButton("CANCEL", "Cancel"); // JButton
+dismissDialog("Open Example Project"); // a
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "LCT"); // aa
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // s
+// Elapsed time: 24 seconds
+setFolderChooser("/data/scratch/ge75caz/PULP/riscv-lct");
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 17 seconds
+selectButton("NEXT", "Next >"); // JButton
+// WARNING: HEventQueue.dispatchEvent() is taking  1604 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 88 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// Elapsed time: 27 seconds
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_DIRECTORIES, "Add Directories"); // a
+setFolderChooser("/data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", true); // g: TRUE
+selectComboBox(PAResourceQtoS.SrcChooserPanel_TARGET_LANGUAGE, "VHDL", 0); // e
+selectButton("NEXT", "Next >"); // JButton
+// [GUI Memory]: 110 MB (+11803kb) [02:24:00]
+// [GUI Memory]: 116 MB (+496kb) [02:24:01]
+selectButton("NEXT", "Next >"); // JButton
+// WARNING: HEventQueue.dispatchEvent() is taking  1246 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 157 seconds
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7vx485tffg1158-1 ; 1158 ; 350 ; 303600 ; 607200 ; 1030 ; 0 ; 2800 ; 48 ; 0 ; 48 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ; 14 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.97 ; 0.97 ; 1.03", 731, "xc7vx485tffg1158-1", 0); // r
+// Elapsed time: 22 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xqzu49dr-fsrf1760-1M-m ; 1760 ; 408 ; 425280 ; 850560 ; 1080 ; 80 ; 4272 ; 16 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 16 ; 0 ; 0 ; 0 ; 0 ; 2 ; 8 ;  ; 2 ;  ;  ; 1 ;  ;  ; -55 ; 125 ; 125 ; M ; 0.825 ; 0.850 ; 0.876", 3442, "xqzu49dr-fsrf1760-1M-m", 0); // r
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: create_project LCT /data/scratch/ge75caz/PULP/riscv-lct/LCT -part xqzu49dr-fsrf1760-1M-m 
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  14673 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/nfs/tools/xilinx/Vivado/2021.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,937 MB. GUI used memory: 57 MB. Current time: 4/4/22, 6:43:14 PM CEST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,939 MB. GUI used memory: 57 MB. Current time: 4/4/22, 6:43:16 PM CEST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 7732.934 ; gain = 62.539 ; free physical = 2318 ; free virtual = 7397 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 7732.949 ; gain = 0.016 ; free physical = 3559 ; free virtual = 8696 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:43:42 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:43:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:44:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:44:46 PM CEST
+// [Engine Memory]: 1,964 MB (+22540kb) [02:30:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:47:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:47:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:48:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:48:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,964 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:49:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:51:45 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:52:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:52:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:53:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:53:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:54:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:55:45 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:56:16 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1550 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:56:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:57:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:57:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 6:58:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:00:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:00:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:01:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 88 MB. Current time: 4/4/22, 7:01:45 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:02:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:02:46 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:03:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,965 MB. GUI used memory: 58 MB. Current time: 4/4/22, 7:03:46 PM CEST
+// Elapsed time: 1275 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 1672 seconds
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2021) ; Vivado Synthesis Default Reports (Vivado Synthesis 2021) ; xqzu49dr-fsrf1760-1M-m ;  ; Vivado Synthesis Defaults", 0); // az
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2021) ; Vivado Synthesis Default Reports (Vivado Synthesis 2021) ; xqzu49dr-fsrf1760-1M-m ;  ; Vivado Synthesis Defaults", 0); // az
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2021) ; Vivado Implementation Default Reports (Vivado Implementation 2021) ; xqzu49dr-fsrf1760-1M-m ;  ; Default settings for Implementation.", 1, "impl_1", 0, false); // az
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 3.6s
+// WARNING: HEventQueue.dispatchEvent() is taking  4092 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2021) ; Vivado Synthesis Default Reports (Vivado Synthesis 2021) ; xqzu49dr-fsrf1760-1M-m ;  ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // az - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.6s
+// WARNING: HEventQueue.dispatchEvent() is taking  1054 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 62 MB. Current time: 4/4/22, 7:04:16 PM CEST
+// Elapsed time: 28 seconds
+closeMainWindow("LCT - [/data/scratch/ge75caz/PULP/riscv-lct/LCT/LCT.xpr] - Vivado 2021.2"); // bb
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

@@ -15,6 +15,7 @@ git clone git@iis-git.ee.ethz.ch:pulp-sw/riscv_tests.git \
 git clone git@iis-git.ee.ethz.ch:pulp-sw/sequential_bare_tests.git \
     tests/sequential_bare_tests
 
+git clone git@github.com:pulp-platform/pulp-training.git
 # using "stable" versions
 echo "Using stable versions of tests"
 # marsellus branch

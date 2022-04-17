@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr  4 16:13:25 2022
+# Process ID: 2230275
+# Current directory: /data/scratch/ge75caz/PULP/pulp
+# Command line: vivado
+# Log file: /data/scratch/ge75caz/PULP/pulp/vivado.log
+# Journal file: /data/scratch/ge75caz/PULP/pulp/vivado.jou
+# Running On: prakt11, OS: Linux, CPU Frequency: 3937.862 MHz, CPU Physical cores: 8, Host memory: 33368 MB
+#-----------------------------------------------------------
+start_gui
+create_project LCT /data/scratch/ge75caz/PULP/riscv-lct/LCT -part xqzu49dr-fsrf1760-1M-m
+set_property target_language VHDL [current_project]
+add_files -scan_for_includes {/data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/communicators/com_task_migration_rev_01.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/monitors/mon_load.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/oF_Power-OPS.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/lct_actsel.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/dummy_ae.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/monitors/IPS-Monitor.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/communicators/com_lcs_func_params.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/simulation/tb_lct.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/lct_bk.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/actuators/simulation/tb_task_act.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/autonomic_element.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/actuators/act_frequency.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/ob_Function.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/communicators/com_lct_rule_update.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/monitors/mon_load_rev_01_old_calculation.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/actuators/libact.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/oF_multiplier.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/q-table.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/actuators/act_task_rev_01.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/actuators/act_task.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/lct.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lib_ae.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct_counter.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/LFSR.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/lct/reward_Function.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/monitors/mon_util.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/monitors/mon_load_rev_01.vhd /data/scratch/ge75caz/PULP/riscv-lct/lct_from_leon3/ae/communicators/com_load_monitor_rev_01.vhd}

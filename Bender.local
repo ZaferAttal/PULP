@@ -1,0 +1,2 @@
+overrides:
+  udma_i2c: { path: "working_dir/udma_i2c" } # Temporary override by Bender using `bender clone` command
